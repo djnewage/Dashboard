@@ -1,0 +1,63 @@
+.content-area{
+    margin-left: 280px;
+    padding: 15px;
+    .heading{
+        h1{
+            color: purple;
+            font-size: 1.4rem;
+            font-weight: 400;
+            margin-bottom: 10px;
+        }
+        p {
+            color: #1b1b1b;
+            font-size: 0.8rem;
+            margin-bottom: 10px;
+        }
+
+    }
+
+
+    .cards{
+        .card{
+            background: #fff;
+            border-radius: 5px;
+            padding: 20px;
+            .user-img{
+                background: url(https://d3iw72m71ie81c.cloudfront.net/male-47.jpg) no-repeat center center ; 
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+                width: 120px;
+                height: 120px;
+                border-radius: 50%; 
+                margin: 0 auto;
+            }
+            .user-name {
+                font-size: 1rem;
+                color: purple;
+                display: block;
+                text-align: center;
+                margin: 10px 0;
+            }
+            .user-title {
+                display: block;
+                font-size: 0.8rem;
+                text-align: center;
+                margin: 10px 0;
+            }
+        }
+    }
+}
+
+.col-md-4{
+    width: (100/3) + %;
+    padding: 0 15px;
+    display: inline-block;
+}
+
+.col-md-3{
+    width: (100/4) + %;
+    padding: 0 15px;
+    display: inline-block;
+}
